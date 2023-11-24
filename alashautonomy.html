@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alash autonomy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="images/favicon.ico" rel="icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/3aeaa236fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <section id="hero" class="hero">
+  <header id="header" class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">KBI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" target="_blank">Home</a></li>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              Formation
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="#" aria-current="page">Alash Autonomy (1917-1920)</a></li>
+                              <li><a class="dropdown-item" href="kazassr.html" target="_blank">Kazakh ASSR (1920-1936)</a></li>
+                              <li><a class="dropdown-item" href="kazssr.html" target="_blank">Kazakh SSR (1936-1991)</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html" target="_blank">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quiz.html" target="_blank">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  </header>
+  </section>
+
+  <section id="alashhead" class="alashhead">
+    <div class="container">
+        <img src="images/oblozhkaalash.jpg" alt="alashsquad" style="width: 100%;">
+        <div class="text-block text-center">
+            <h1 class="text-white"><strong>Alash autonomy:</strong></h1>
+            <h3 class="text-white">People. Fate. Ideas.
+            </h3>
+    </div>
+  </section>
+
+  <style>
+    #pechat {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+
+  <img id="pechat" src="images/pechat_alash.png">
+  <script>
+    pechat.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        pechat.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+  <section id="statesymbols" class="statesymbols">
+    <div class="container-md">
+      <h1 class="text-dark">State symbols</h1>
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">      
+            <div class="card">
+              <img src="images/cardflagalash.jpg" width="150" height="350" class="card-img-top" alt="Akhmet">
+                <div class="card-body">
+                    <h2 class="card-title">The official flag of the Alash Autonomy</h2>
+                    <p class="card-text"><i>"The Kazakh country has a flag. The flag consists of green, red and yellow transverse stripes. 
+                      In the upper corner there is a drawing of a crescent moon and a star. Green is a sign of the country's loyalty 
+                      to Islam, red is a symbol of the blood shed in the defense of the country, yellow is a symbol of the wide Kazakh 
+                      steppe, freedom"</i> <b>- Barlybek Syrtanov, 1910</b></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="images/firstflagalash.png" width="150" height="350" class="card-img-top" alt="Bokeyhanov">
+                <div class="card-body">
+                    <h2 class="card-title">The original flag of the Alash Horde</h2>
+                    <p class="card-text">In June 1918, the newspaper "Will of the People" mentioned the approval of a white flag with 
+                      a yurt in the center.<br>
+
+                      <br>
+                      <i>"... On June 5, 1918, a formed Kazakh detachment of 500 horsemen entered the city of Alash. On June 6, a 
+                        solemn meeting was held in the center of the Hut. The detachment was armed and trained in the art of war, had 
+                        its own uniform, resembling a national doublet with leather stitched collars. A white flag was established, 
+                        in the center of which was an image of a yurt..."</i></p>
+                    </div>
+                  </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="images/alashcard.jpg" width="150" height="350" class="card-img-top" alt="Dulatov">
+                <div class="card-body">
+                    <h2 class="card-title">Territory of the Alash Horde</h2>
+                    <p class="card-text">The autonomy included Bukeevskaya province, Ural, Turgai, Akmola, Semipalatinsk, 
+                      Syrdarya regions, Kazakh counties of Ferghana and Samarkand regions, Amudarya department, separate volosts 
+                      of Altai province and Transcaspian region.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+  <section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="images/firstcongress.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2>The first and second All-Kazakh Congress</h2>
+                    <p>In <b>July 1917</b>, the <strong> First All-Kazakh Congress</strong> was held in Orenburg, where issues of public administration, 
+                        autonomy, participation in the Constituent Assembly, formation of a political party, land, people's militia, 
+                        education, court and other issues were considered. The main decision of the Congress was to defend the right 
+                        of Kazakhs to territorial and national autonomy as part of the <i>"democratic, parliamentary and federal Russian 
+                        republic"</i>. A significant milestone at the congress was that the issue of the formation of the Alash party was 
+                        resolved at the congress.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="images/mustafashokai.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2>Democrats-educators and their Role in the Development of Kazakh Society</h2>
+                    <p>Democrats-educators <b>A.Bukeikhanov, A.Baitursynov</b> and <b>M.Shokai</b> were looking for ways to develop Kazakh society, 
+                        led the work of the Muslim faction in the State Duma. On their initiative, the magazine <i>"Aikap"</i> (1911), the 
+                        newspapers <i>"Birlik tuy", "Sary-Arka", "Ak Zhol"</i> were created, which conducted extensive propaganda and 
+                        educational work on their pages. The main goal of the Alash movement was self-government of the Kazakh people, 
+                        the right of the people to create an independent state, restriction of resettlement from the interior of Russia 
+                        to the Kazakh lands. Representatives of the Alash movement advocated the preservation of traditional animal 
+                        husbandry, the development of agriculture, industry, and trade relations. A significant place in their program 
+                        was occupied by the development of national culture, education and the Kazakh language. The Alash movement, 
+                        which arose during the revolution of 1905 — 1907 in Russia, reached its peak in 1917.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="images/alashfullsquad.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2>"The program of the Alash Party: National Unity and Struggle for the Rights of the Kazakh People"</h2>
+                    <p>The program of the Alash party adhered to the unification of Kazakh society not on the basis of class 
+                        principle, but on the basis of national unity.
+                        The Alash party demanded the adoption of laws on the recognition of land as the property of Kazakhs and on the opening of 
+                        schools and universities with their native language of instruction, advocated limiting the process of resettlement of peasants 
+                        to the Kazakh region, granting rights of freedom and equality to the poor. Such a program provided the Alash party with wide 
+                        popularity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="trace" class="trace">
+    <div class="container" id="tracehist">
+        <h4 class="text-dark"><strong>Ideological resistance and the trace of the Soviet Era.</strong></h4>
+        <p>Despite the fact that all political structures were destroyed by the Bolsheviks, the Alash movement did not immediately 
+            leave the arena of political struggle. His principles were supported by <b>T.Ryskulov, S.Asfendiyarov, S.Kozhanov, 
+            S.Sadvakasov</b> and <b>Zh.Mynbayev.</b><br><br>
+
+            A number of leaders of the Alash movement did not leave the arena of ideological activity. According to a number of sources,
+             in 1920 A. Bukeikhanov urged young people who were exposed to the ideas of "Alash" and had not been seen before in open 
+             speeches against the Soviet government to join the Bolshevik Party, gain the confidence of the new government and thereby 
+             serve national interests. In the conditions of Soviet power, this call of the leader of the Kazakh intelligentsia was a 
+             kind of way out of the current situation. Dozens of Alashev residents, including <b>S. Sadvokasov, Y. Mustambayuly, 
+             Zh. Sultanbekov, N. Nurmakov,</b> having joined the ranks of the Bolshevik Party, participating in the exercise of supreme 
+             power, thereby made every effort to ensure that Soviet power in Kazakhstan acquired national content.
+            Since the mid-20s of the twentieth century, in parallel, an official campaign was conducted to distort the key issues 
+            of the history of the Kazakh people (the history of Kazakhstan's accession to Russia and the national liberation movement in the region), "commissioned" studies on them were written.
+            The response to this violence in spiritual life was the publication of such works of Kazakh history and literature as 
+            <i>"The History of the division of the Kazakh land"</i>, <i>"The History of the Kazakh people"</i> by <b>Telzhan Shonanov</b> and <i>"Former 
+            Foreigners"</i> by <b>Koshke Kemengerov</b>, <i>"Materials for the History of the Kyrgyz-Kazakh people"</i> and <i>"Aktaban shubyndy"</i> 
+            (Great Disasters) <b>M. Tynyshpaev</b>, collections "Alaman" and "Isatai-Makhambet", compiled and published 
+            by <b>X. Dosmukhamedov</b> et al., who have not lost their scientific and cognitive significance at the present time.</p>
+    </div>
+    <div class="container" id="zhazushi">
+        <div class="container-md">
+        <div class="row">
+        <div class="col-md-4 mt-2">
+            <img src="images/koshke_kemenger.jpg" width="392" height="568" alt="koshke">
+            <h4 class="text-dark">Koshmukhambet Kemengeruly</h4>
+        </div>
+        <div class="col-md-4 mt-2">
+            <img src="images/tynyshpaev.jpg" alt="tynyshpaev">
+            <h4 class="text-dark">Mukhametzhan Tynyshbayuly</h4>
+        </div>
+        <div class="col-md-4 mt-2">
+            <img src="images/dosmukhamedov.jpg" width="392" height="568" alt="dosmukhamedov">
+            <h4 class="text-dark">Khalel Dosmukhamedov</h4>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+
+<hr>
+
+<section id="resultsofalash">
+    <div class="container" id="results">
+        <h4 class="text-dark"><strong>The collapse of the Alash Horde.</strong></h4>
+        <p>Later, the relations of the Alash party with the new government turned to constant contacts and compromises. Having soberly 
+            assessed the situation, the leaders of Alash accepted the conditions dictated by the Soviet military and political 
+            leadership. <b>A. Baitursynov</b>, after meeting with V.I. Lenin in <b>1919</b>, was included in the composition of the extraordinary 
+            regional body - the <b>Kirghiz Military Revolutionary Committee (KirVRK)</b>, whose power, however, often turned out to be only 
+            nominal. In fact, the management was carried out by the bodies of the Turkestan Front, and then by party committees, in 
+            which the leading role was played by the Bolsheviks sent from the center.<br>
+            <br>After the victory in the civil war, the Soviet government disbanded the government of the Alash Horde, later the leaders of the Alash Horde were subjected to repression by the Stalinist regime.</p>
+    </div>
+</section>
+
+  <section id="foot" class="foot">
+    <footer id="footer" class="footer">
+      <div class="container p-4">
+    
+        <section class="">
+          <form action="">
+            
+            <div class="row d-flex justify-content-center">
+              
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              
+              <div class="col-md-5 col-12">
+                
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="emailinput" class="form-control" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+                  <label class="form-label" for="emailinput">Email address</label>
+                </div>
+              </div>
+              
+    
+              <div class="col-auto">
+    
+                
+               <a href="#foot" class="btn btn-outline-light mb-4" onclick="clickFunction()">
+                  Subscribe
+                </a>
+                <p id="demo"></p>
+              </div>
+              
+            </div>
+            
+          </form>
+        </section>
+        
+        <section class="">
+          
+          <div class="row">
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="text-uppercase">Social media</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fa-brands fa-instagram"></i></a> <a href="#!" class="text-white"> @zhagaparoff</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fa-brands fa-facebook"></i></a><a href="#!" class="text-white">KBI.kz</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fa-brands fa-linkedin-in"></i></a><a href="#!" class="text-white">Dias Zhagaparov</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fa-brands fa-twitter"></i></a><a href="#!" class="text-white">Zhagagaga</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="text-uppercase">Useful Links</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">About us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Advertisement</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Donate</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="text-white">Contact us</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="text-uppercase">Policy</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Terms of policy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Privacy policy</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Report an error</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h5 class="text-uppercase">KBI</h5>
+              <p><em>«The burden of independence is heavy.» - Dinmukhamed Kunaev</em></p>  
+          
+            </div>
+            
+            
+          </div>
+          
+        </section>
+      
+        
+    
+      </div>
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright: KazakhstanBeforeIndependence.kz
+      </div>
+    
+    
+    </footer>
+    </section>
+    
+            <div id="preloader"></div>
+            <script src="assets/js/scripts.js"></script>
+</body>
+</html>            
